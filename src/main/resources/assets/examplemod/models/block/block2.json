@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "examplemod:item/grassblocktop",
+    "side": "examplemod:item/grassblocksides",
+    "bottom": "examplemod:item/grassblockbottom"
+  }
+}
