@@ -6,8 +6,9 @@
  * - 1 custom model made in blockbench (not working)
  * <p>
  * I struggled with getting custom recipes and loot tables to work.
- * After days of reconfiguring and testing, nothing worked,
- * and my mod file was in such a bad state that it was no longer repairable.
+ * It seems the game will not load my data folder at all.
+ * After days of reconfiguring and testing, nothing worked.
+ * My mod file came to be in such a bad state that it was no longer repairable.
  * <p>
  * I had to resort to restoring an older version of my mod file.
  * I lost loot tables in that process, so those are not present,
@@ -17,7 +18,8 @@
  * I added a custom debugger for my hand_cannon.json recipe file.
  * The logger found my custom recipe, but still will not load in the game.
  * <p>
- * Hesitant to push the issue any further, I am turning this project in as-is.
+ * Most of my time on this project was spent troubleshooting and not building mods.
+ * I am hoping the effort I put into troubleshooting makes up for my lack of mods.
  */
 
 package com.example.examplemod;
@@ -49,7 +51,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraft.world.entity.EntityType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
